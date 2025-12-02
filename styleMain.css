@@ -1,0 +1,14 @@
+body {
+    background-color: #340f6b;
+}
+
+.movie-review {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.photo-movie {
+    border-radius: 18px;
+    display: block;
+}
