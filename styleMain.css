@@ -1,14 +1,103 @@
-body {
-    background-color: #340f6b;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.movie-review {
+body {
+    background-color: blueviolet;
+}
+
+.hear{
+    font-size: 30px;
+    border-left:0.6rem solid yellow ;
+    font-weight: 600;
+}
+
+.hear span{
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.contener { 
     display: flex;
+    width: auto;
+    height: auto;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 10%;
+    padding: 1.2rem;
+}
+
+.movelist {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.info{
+    padding: 0.5rem;
+}
+.move{
+    background-color: rgba(46, 45, 45, 0.868);
+    overflow: hidden;
+}
+
+.btn{
+    background-color: rgba(46, 45, 45, 0.868);
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    color: rgb(31, 142, 238);
+    text-align: center;
     justify-content: center;
+}
+
+.btn button{
+    border: none;
+    color: rgb(31, 142, 238);
+    background-color: transparent;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(28, 27, 27, 0.868);
+}
+
+.dtel{
+    margin: 15px;
+}
+.btn-s{
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.leout{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
     margin-top: 20px;
 }
-
-.photo-movie {
-    border-radius: 18px;
-    display: block;
+.reaing{
+    gap: 20px;
+    font-size: 16px;
+    color: yellow;
+    font-weight: 500;
+}
+.namemove{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
 }
