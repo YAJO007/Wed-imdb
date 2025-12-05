@@ -6,28 +6,28 @@
 }
 
 body {
-    background-color: blueviolet;
+    background-color: #490085;
 }
 
-.hear{
+.hear {
     font-size: 30px;
-    border-left:0.6rem solid yellow ;
+    border-left: 0.6rem solid yellow;
     font-weight: 600;
 }
 
-.hear span{
+.hear span {
     color: aliceblue;
     margin-left: 10px;
 }
 
-.contener { 
+.contener {
     display: flex;
     width: auto;
     height: auto;
     gap: 10px;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-top: 10%;
+    margin-top: 7%;
     padding: 1.2rem;
 }
 
@@ -38,41 +38,44 @@ body {
     flex-wrap: nowrap;
 }
 
-.info{
+.info {
     padding: 0.5rem;
 }
-.move{
-    background-color: rgba(46, 45, 45, 0.868);
+
+.move {
+    background-color: rgba(#313131, 0.868);
     overflow: hidden;
+    border-radius: 10px;
 }
 
-.btn{
+.btn {
     background-color: rgba(46, 45, 45, 0.868);
     width: auto;
     height: auto;
-    padding: 0.5rem;
+    padding: 1rem;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     color: rgb(31, 142, 238);
     text-align: center;
     justify-content: center;
 }
 
-.btn button{
+.btn button {
     border: none;
     color: rgb(31, 142, 238);
     background-color: transparent;
 }
 
-.btn:hover{
+.btn:hover {
     cursor: pointer;
     background-color: rgba(28, 27, 27, 0.868);
 }
 
-.dtel{
+.dtel {
     margin: 15px;
 }
-.btn-s{
+
+.btn-s {
     background-color: transparent;
     width: auto;
     height: auto;
@@ -82,7 +85,8 @@ body {
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
-.leout{
+
+.leout {
     display: flex;
     width: auto;
     height: auto;
@@ -90,13 +94,15 @@ body {
     flex-wrap: nowrap;
     margin-top: 20px;
 }
-.reaing{
+
+.reaing {
     gap: 20px;
     font-size: 16px;
     color: yellow;
     font-weight: 500;
 }
-.namemove{
+
+.namemove {
     font-size: 18px;
     color: rgb(255, 255, 255);
     font-weight: 500;
