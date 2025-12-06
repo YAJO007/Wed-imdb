@@ -1,41 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
-    background-color: #490085;
+    background-color: #490085; 
+    background-image: linear-gradient(135deg, #4b0082, #2b0040); 
 }
 
 .hear {
     font-size: 30px;
-    border-left: 0.6rem solid yellow;
+    border-left: 0.3rem solid yellow;
     font-weight: 600;
 }
 
 .hear span {
     color: aliceblue;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .contener {
     display: flex;
-    width: auto;
-    height: auto;
-    gap: 10px;
     flex-direction: column;
-    flex-wrap: nowrap;
-    margin-top: 7%;
-    padding: 1.2rem;
+    gap: 20px;
+    width: 90%;
+    max-width: 1500px;
+    margin: 50px auto;
+    padding: 20px;
 }
 
 .movelist {
     display: flex;
-    gap: 10px;
+    gap: 12px;
     flex-direction: row;
     flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 12px;
 }
 
 .info {
@@ -43,9 +47,11 @@ body {
 }
 
 .move {
-    background-color: rgba(#313131, 0.868);
+    background-color: #313131;
     overflow: hidden;
     border-radius: 10px;
+    min-width: 150px;
+    flex:0 0 auto;
 }
 
 .btn {
@@ -106,4 +112,15 @@ body {
     font-size: 18px;
     color: rgb(255, 255, 255);
     font-weight: 500;
+}
+
+.movelist::-webkit-scrollbar {
+    height: 8px;
+}
+.movelist::-webkit-scrollbar-track {
+    background: rgb(24, 23, 23);
+}
+
+.movelist::-webkit-scrollbar-thumb {
+    background: #444;
 }
