@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
 * {
     margin: 0;
@@ -7,79 +7,86 @@
     font-family: "Montserrat", sans-serif;
 }
 
-body{
-    background-color: #490085; 
+body {
+    background-color: #34025e;
 }
 
-.poster-wrapper {
-    text-align: center;
+.page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 16px 60px;
+}
+
+
+.hero-wrapper {
     position: relative;
 }
 
-.movie-poster-container{
-    position: relative; 
-    max-width: 1100px;       
-    margin: 20px auto 40px;
-    text-align: center;
+.hero-image {
+    width: 100%;
+    display: block;
+    border-radius: 16px;
 }
 
-.movie-poster {
-    width: 80%;
-    max-width: 1000px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 12px;
+.hero-trailer {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 280px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
-.movie-review {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.movie-review-Htext {
-    color: yellow;
-    max-width: 700px;
-}
-
-.photo-movie {
-    border-radius: 18px;
-    display: block;
-}
-
-.movie-review-text {
-    max-width: 700px;
-}
-
-.movie-review-text p {
-    line-height: 1.6;
-    font-size: 16px;
-    text-align: center;
-}
-
-.play-btn {
-    position: absolute;
-    bottom: 25px;
-    left: 60%;                   
-    transform: translateX(-50%); 
-    background: rgba(0,0,0,0.6);
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 16px;
-}
-
-.trailer-overlay {
-    position: absolute;
-    bottom: 40px;
-    right: 60px; 
-    width: 320px;
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-.trailer-video {
+.hero-trailer video {
     width: 100%;
     display: block;
 }
 
+.movie-section {
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.movie-poster-small img {
+    width: 150px;
+    border-radius: 12px;
+    display: block;
+}
+
+.movie-info {
+    flex: 1;
+    color: aliceblue;
+}
+
+.movie-title {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.rating {
+    color: #ffdd55;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.star {
+    color: #ffcc00;
+    font-size: 18px;
+}
+
+.highlight {
+    color: #ffd86a;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    color: aliceblue;
+}
