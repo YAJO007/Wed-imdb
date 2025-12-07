@@ -50,7 +50,7 @@ body {
     overflow: hidden;
     border-radius: 10px;
     min-width: 150px;
-    flex:0 0 auto;
+    flex: 0 0 auto;
 }
 
 .btn {
@@ -116,10 +116,18 @@ body {
 .movelist::-webkit-scrollbar {
     height: 8px;
 }
+
 .movelist::-webkit-scrollbar-track {
     background: rgb(24, 23, 23);
 }
 
 .movelist::-webkit-scrollbar-thumb {
     background: #444;
+}
+
+.poster img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
 }
